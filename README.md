@@ -23,7 +23,7 @@ Participants will have access to sample data and an artificially generated datas
 - **Local Testing**: Participants must test their solutions locally using the provided Singularity image before submission. To run your code using the singularity image locally: `singularity exec --nv /path/to/diamond.sif python main.py`
 - **Library Requests**: If a specific library is needed that is not included in the Singularity image, participants can request its inclusion via [this form](https://docs.google.com/forms/d/e/1FAIpQLScHLU8zwy0qNVFs_A8XY8SsVtDETB3hBP2olY8dCdnOhgqZuw/viewform).
 
-**IMPORTANT:** The function `generate_val_csv` save a CSV file of the predictions. THIS FUNCTION IS CRITICAL FOR EVALUATING THE MODEL'S PERFORMANCE ON THE VALIDATION SET. PARTICIPANTS SHOULD NOT CHANGE THIS FUNCTION IN ANY WAY TO ENSURE THE INTEGRITY OF THE EVALUATION PROCESS. THE CODE OF THE FINALISTS WILL BE REVIEWED. IN CASE OF MODIFICATION OF THIS FUNCTION, THE TEAM WILL BE DISQUALIFIED.
+**IMPORTANT:** The function `generate_val_csv` saves a CSV file of the predictions. THIS FUNCTION IS CRITICAL FOR EVALUATING THE MODEL'S PERFORMANCE ON THE VALIDATION SET. PARTICIPANTS SHOULD NOT CHANGE THIS FUNCTION IN ANY WAY TO ENSURE THE INTEGRITY OF THE EVALUATION PROCESS. THE CODE OF THE FINALISTS WILL BE REVIEWED. IN CASE OF MODIFICATION OF THIS FUNCTION, THE TEAM WILL BE DISQUALIFIED.
     
 
 ### Using the `train.sh` Script for Submission
