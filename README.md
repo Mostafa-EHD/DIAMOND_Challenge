@@ -33,14 +33,16 @@ For efficient management and execution of your model/models with different param
 ```bash
 
 # First run with a specific parameter set and a 3-day limit. Convert days to hours: 3 days * 24 hours/day = 72 hours.
-timeout 72h python main.py --learning_rate 1e-4 --batch_size 16 --backbone resnet50
+timeout 72h python main.py --learning_rate 1e-4 --batch_size 16 --backbone resnet50 --submission_name $1
 
 # Second run with a different parameter set and a 2-day limit. Convert days to hours: 2 days * 24 hours/day = 48 hours. 
-timeout 48h python main.py --learning_rate 1e-3 --batch_size 8 --backbone efficientnet_b0
+timeout 48h python main.py --learning_rate 1e-3 --batch_size 8 --backbone efficientnet_b0 --submission_name $1
 
 # Third run with a 2-day limit. Convert days to hours: 2 days * 24 hours/day = 48 hours. 
-timeout 48h python main.py --learning_rate 1e-3 --batch_size 8 --backbone resnet101
+timeout 48h python main.py --learning_rate 1e-3 --batch_size 8 --backbone resnet101 --submission_name $1
 ```
+We will call this bash script with your submission's name as an argument ($1). Submission names are used to save logs, checkpoints, result files, and allows you to access saved checkpoints from previous submissions.
+
 **Customization Instructions:**
 
 - **Parameter Settings**: Modify the `--learning_rate`,  `--batch_size` and `--backbone` parameters as necessary to fit your model’s requirements. This is just an example, you can add all elements of your argparse. 
