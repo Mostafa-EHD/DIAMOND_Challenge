@@ -3,6 +3,7 @@ import torchvision.transforms as transforms
 import torch
 from tqdm import tqdm 
 import numpy as np
+import os
 import pandas as pd
 
 def read_image(path, resize_size=None, gray=False):
@@ -63,7 +64,7 @@ def prepare_data(data, device):
     return img, labels
 
 
-def generate_val_csv(model, val_dataloader, device):
+def generate_val_csv(model, val_dataloader, device, results_dir):
     """
     GENERATES A CSV FILE CONTAINING THE PREDICTIONS FOR A VALIDATION DATASET ALONG WITH THEIR ASSOCIATED PROBABILITIES.
     
@@ -77,9 +78,10 @@ def generate_val_csv(model, val_dataloader, device):
       the DataLoader returns batches of images along with their labels and image IDs as expected by this function.
     - device (torch.device): The device on which the computations will be performed. Typically, this would be a CUDA
       device for GPU acceleration. It is essential that the device specified here is compatible with the model and data.
+    - results_dir (str): the directory to save the results.
 
     Outputs:
-    - A CSV file named 'test_results.csv' is saved in the current working directory. This file contains the image IDs,
+    - A CSV file named 'val_results.csv' is saved in the results directory. This file contains the image IDs,
       predicted classes, and probabilities for being in each class. DO NOT ALTER THE OUTPUT FORMAT OR FILE NAME.
 
     DO NOT MODIFY THIS FUNCTION. ANY CHANGES TO THIS FUNCTION MAY INVALIDATE THE EVALUATION PROCESS.
@@ -113,13 +115,25 @@ def generate_val_csv(model, val_dataloader, device):
             'Probability_Class_1': np.array(all_probs)[:, 1]
         })
         
-        results_csv_path = 'test_results.csv'
+        results_csv_path = os.path.join(results_dir, 'val_results.csv')
         df_results.to_csv(results_csv_path, index=False)
     
         print(f'Results saved to {results_csv_path}')
 
-       
-    
- 
 
+def load_float_from_file(filename, default_value=0.0):
+    """
+    Loads a float value from a text file. Returns a default value if the file does not exist.
 
+    Parameters:
+    - filename (str): text file name.
+    - default_value (float): value to return if the file does not exist.
+
+    Outputs:
+    - the file content as a float, or the default value.
+    """
+    try:
+        with open(filename, 'r') as file:
+            return float(file.read())
+    except FileNotFoundError:
+        return default_value
