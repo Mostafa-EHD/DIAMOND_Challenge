@@ -10,7 +10,7 @@ from data.DiamondDataset import DiamondDataset
 import torch.optim as optim
 from tqdm import tqdm
 from tensorboardX import SummaryWriter
-from utils import prepare_data, generate_val_csv
+from utils import prepare_data, generate_val_csv, load_float_from_file
 from torchmetrics.classification import BinaryCalibrationError, BinaryAUROC, BinaryF1Score
 
 
@@ -21,10 +21,9 @@ def main(args):
     
     The function performs the following steps:
     1. Initializes TensorBoard for logging. Important: we need Tensorboard logs to send you the report of your algorithm. 
-    2. Loads and splits the dataset into training, validation, and test sets.
+    2. Loads the training and validation sets.
     3. Initializes the DiamondModel, loss criterion, and optimizer.
-    4. Trains the model for a specified number of epochs, saving the model with the best validation loss.
-    5. Tests the best model on the test set and saves the results. Important: keep this part without changes. 
+    4. Trains the model for a specified number of epochs, saving the model and results with the best validation loss.
     
     Parameters:
     - args (argparse.Namespace): Command-line arguments specifying dataset paths, training parameters, and model configuration.
@@ -48,7 +47,15 @@ def main(args):
     AUC = BinaryAUROC(thresholds=None).to(device)
     F1 = BinaryF1Score().to(device)
     ECE = BinaryCalibrationError(n_bins=10, norm='l1').to(device)
-    
+
+    # Initialize the results directory for this submission
+    results_dir = f'./{args.submission_name}'
+    # Check if the directory exists
+    if not os.path.exists(results_dir):
+        # If it doesn't exist, create it
+        os.makedirs(results_dir)
+    submission_best_score_file = os.path.join(results_dir, 'best_score.txt')
+
     # Initialize Data 
     # Load dataframes
     df_train = pd.read_csv(args.train_csv)
@@ -64,7 +71,6 @@ def main(args):
     val_dataloader = DataLoader(val_dataset, batch_size=args.batch_size, shuffle=False,
                           num_workers=args.num_workers)
 
-    
         
     # Model Initialization
     model = DiamondModel(args)
@@ -162,26 +168,24 @@ def main(args):
             best_loss = avg_loss_val
             ep_loss = epoch
             torch.save(model.state_dict(), os.path.join(ckpt_dir, 'best_model.pth')) 
-            
+
+            # Save the results
+            if best_loss < load_float_from_file(submission_best_score_file, 999):
+                with open(submission_best_score_file, 'w') as best_score_file:
+                    best_score_file.write(str(best_loss))
+                print('Generating the validation CSV using the Best Loss Model !')
+
+                # generate the validation csv 
+                # DO NOT CHANGE THIS PART OF THE CODE
+                generate_val_csv(model, val_dataloader, device, results_dir)
+
         print(f"[Best chekpoints values] Best_loss = {best_loss}")
         print(f"[Best chekpoints epochs] epoch = {ep_loss}")
-    
+
     # Close the writer
     writer.close()
-    
-    # Preliminary validation step
-    print('Generating the validation CSV using the Best Loss Model !')
 
-    model.load_state_dict(torch.load(os.path.join(ckpt_dir, 'best_model.pth')))
-    
-    # generate the validation csv 
-    # DO NOT CHANGE THIS PART OF THE CODE
-    generate_val_csv(model, val_dataloader, device)
 
-    
- 
-    
-        
     
 if __name__ == "__main__":
     """
