@@ -2,6 +2,11 @@
 
 Welcome to the DIAMOND Challenge! This challenge focuses on developing predictive models for the development of clinically significant Diabetic Macular Edema (ci-DME) within a year using Ultra-Wide Field Color Fundus Photography (UWF-CFP) images. Our goal is to encourage innovative approaches that achieve high sensitivity, specificity, and precision on both in-domain and out-of-domain data.
 
+<p float="left">
+  <img src="images/miccai2024.png" height="150" />
+  <img src="images/diamond.png" height="150" />
+</p>
+
 ## Overview
 
 For this challenge, participants are required to submit their code as a **Zip file** using a standardized Singularity image provided by the organizers. This approach ensures consistency in the execution environment across all submissions. The challenge is structured to facilitate a blind evaluation of submissions, with feedback on performance provided directly to participants daily.
