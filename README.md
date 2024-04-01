@@ -9,6 +9,7 @@ For this challenge, participants are required to submit their code as a **Zip fi
 ## Data
 ### Synthetic Dataset
 To assist in the development and local testing of your algorithms, we are providing a synthetic dataset generated using images from the Deep Diabetic Retinopathy Image Dataset (DeepDRiD) -  [DeepDRiD GitHub](https://github.com/deepdrdoc/DeepDRiD). This dataset is available under the Creative Commons Attribution Share Alike 4.0 International license. For the purpose of this challenge, ci-DME labels have been synthetically generated based on the following rule: `A ci-DME event is predicted to occur in the next visit if the DR label is >= moderate non-proliferative DR; otherwise, it is considered non-ci-DME`.
+> Download the `ultra-widefield_images` folder from [DeepDRiD GitHub](https://github.com/deepdrdoc/DeepDRiD) and use the `training_set.csv` and `validation_set.csv` files provided in this repository to test your algorithms.
 
 ### One Patient Dataset
 In addition to the synthetic dataset, we are also providing real image data from two patients. This dataset is intended to give participants a more accurate feel for the kind of data they will be working with and to aid in the fine-tuning of their predictive models.
