@@ -59,7 +59,7 @@ We will call this bash script with your submission's name as an argument ($1). S
 - **Final Submission Period**: July 1 - July 5, 2024
 - **Finalists Announcement**: July 15, 2024
 - **Report Submission for Finalists**: July 15 - September 15, 2024
-- **Results Announcement**: Challenge Day, October 6 or 10, 2024
+- **Results Announcement**: Challenge Day, October 10, 2024
 
 ## Getting Started
 
