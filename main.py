@@ -194,7 +194,7 @@ if __name__ == "__main__":
     parser.add_argument('--learning_rate', type=float, default=1e-4, help='Learning rate')
     parser.add_argument('--weight_decay', type=float, default=1e-4, help='weight decay')
     parser.add_argument('--batch_size', type=int, default=4, help='Batch size')
-    parser.add_argument('--epochs', type=int, default=10, help='Number of epochs to train for')
+    parser.add_argument('--epochs', type=int, default=100, help='Number of epochs to train for')
     parser.add_argument('--root_dir', type=str, default='./diamond_data', help='Path to the dataset')
     parser.add_argument('--train_csv', type=str, default='training_set.csv', help='Path to the training CSV')
     parser.add_argument('--val_csv', type=str, default='validation_set.csv', help='Path to the validation CSV')
