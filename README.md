@@ -79,7 +79,7 @@ Moreover, the GPU model used for the reference training runs is a **Tesla V100s*
 - For **Resnet101** with images of size **448x448**, **the batch size should not exceed 48**.
 - For **EfficientNet_b7** with images of size **448x448**, a maximum **batch size of 8 is advised**.
   
-These batch size recommendations are based on ensuring optimal memory utilization and may need adjustment depending on the specific model configuration and available GPU resources. It is pivotal for participants to consider these factors when configuring their training setups to achieve the best balance between training speed and model accuracy.
+These batch size recommendations are based on ensuring optimal memory utilization and may need adjustment depending on the specific model configuration and available GPU resources. Participants must consider these factors when configuring their training setups to achieve the best balance between training speed and model accuracy.
 
 ## Pre-evaluation
 
