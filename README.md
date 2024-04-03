@@ -74,7 +74,7 @@ We will call this bash script with your submission's name as an argument ($1). S
   
 **Note on Hyperparameters and GPU Specifications:**
 The hyperparameters provided within the starter code, including learning rate, epochs, etc., serve merely as examples. Participants are encouraged to adjust these values according to their specific needs to optimize model performance.
-Moreover, the GPU model used for the reference training runs is a Tesla V100s, equipped with 32 GB of memory. The choice of batch size is crucial and directly influenced by the combination of the model architecture and the image size being processed. As a guideline:
+Moreover, the GPU model used for the reference training runs is a **Tesla V100s**, equipped with **32 GB of memory**. The choice of batch size is crucial and directly influenced by the combination of the model architecture and the image size being processed. As a guideline:
 - For **Resnet50** or **EfficientNet_b0** with images of size **448x448**, a maximum **batch size of 80 is recommended**.
 - For **Resnet101** with images of size **448x448**, **the batch size should not exceed 48**.
 - For **EfficientNet_b7** with images of size **448x448**, a maximum **batch size of 8 is advised**.
