@@ -71,6 +71,15 @@ We will call this bash script with your submission's name as an argument ($1). S
 - **Starting Code**: Refer to this repository for the PyTorch-based starter code.
 - **Singularity Setup**: Follow the [Singularity installation guide](https://sylabs.io/guides/latest/user-guide/) to set up your local environment for testing.
 - **Submission Guide**: Detailed instructions for preparing and submitting your code can be found in the `Submission` section.
+  
+**Note on Hyperparameters and GPU Specifications:**
+The hyperparameters provided within the starter code, including learning rate, epochs, etc., serve merely as examples. Participants are encouraged to adjust these values according to their specific needs to optimize model performance.
+Moreover, the GPU model used for the reference training runs is a Tesla V100s, equipped with 32 GB of memory. The choice of batch size is crucial and directly influenced by the combination of the model architecture and the image size being processed. As a guideline:
+- For Resnet50 with images of size 448x448, a maximum batch size of 80 is recommended.
+- For Resnet101 with images of size 448x448, the batch size should not exceed 48.
+- For EfficientNet_b0 with images of size 448x448, a maximum batch size of 8 is advised.
+  
+These batch size recommendations are based on ensuring optimal memory utilization and may need adjustment depending on the specific model configuration and available GPU resources. It is pivotal for participants to consider these factors when configuring their training setups to achieve the best balance between training speed and model accuracy.
 
 ## Pre-evaluation
 
