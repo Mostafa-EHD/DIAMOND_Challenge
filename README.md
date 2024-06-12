@@ -25,7 +25,7 @@ Participants will have access to sample data and an artificially generated datas
 ## Submission Method
 
 - **Code Submission**: Submit your code as a **Zip file** containing all necessary scripts and documentation.
-- **Singularity Image**: Use the Singularity image provided by the organizers for development and testing. This ensures compatibility and fairness in the evaluation process. The image can be downloaded using this [link](https://drive.google.com/file/d/1t7NaunbjDi6Y1PCO49BtgHPweZnzwewd/view?usp=sharing). The list of libraries included in this image can be found in the file `list_lib_diamond.txt`.
+- **Singularity Image**: Use the Singularity image provided by the organizers for development and testing. This ensures compatibility and fairness in the evaluation process. The image can be downloaded using this [link](https://drive.google.com/drive/folders/1A4nw-upR_TP19InQJpcX-UZ9xtuhetrg). The list of libraries included in this image can be found in the file `list_lib_diamond.txt`.
 - **Local Testing**: Participants must test their solutions locally using the provided Singularity image before submission. To run your code using the singularity image locally: `singularity exec --nv /path/to/diamond.sif python main.py`
 - **Library Requests**: If a specific library is needed that is not included in the Singularity image, participants can request its inclusion via [this form](https://docs.google.com/forms/d/e/1FAIpQLScHLU8zwy0qNVFs_A8XY8SsVtDETB3hBP2olY8dCdnOhgqZuw/viewform).
 
