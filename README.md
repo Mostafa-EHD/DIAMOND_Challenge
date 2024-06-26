@@ -91,6 +91,17 @@ Participants are encouraged to thoroughly test their models locally using the pr
 1. Predict the development of ci-DME within a year using in-domain UWF-CFP data from France.
 2. Predict the development of ci-DME within a year using out-of-domain UWF-CFP data from Algeria.
 
+## Leaderboard
+
+Below is the current leaderboard showcasing the top-performing participants and their teams, based on various evaluation metrics:
+
+| Participant | Team   | Score | AUC  | F1 Score | ECE  |
+|-------------|--------|-------|------|----------|------|
+| pzhang1     | DF41   | 1.04  | 0.57 | 0.00     | 0.04 |
+| wsy66       |   -    | 0.93  | 0.46 | 0.00     | 0.07 |
+|             |        |       |      |          |      |
+
+
 ## Submission
 
 Submit your Zip file containing the code via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfIDaXXr35gYxEfbPAZF2NXaRFx6lKSP8pB05XhaqHSSVZMOg/viewform?usp=pp_url). 
