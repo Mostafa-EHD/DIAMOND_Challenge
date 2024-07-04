@@ -95,11 +95,12 @@ Participants are encouraged to thoroughly test their models locally using the pr
 
 Below is the current leaderboard showcasing the top-performing participants and their teams, based on various evaluation metrics:
 
-| Participant | Team   | Score | AUC  | F1 Score | ECE  |
-|-------------|--------|-------|------|----------|------|
-| pzhang1     | DF41   | 1.04  | 0.57 | 0.00     | 0.04 |
-| wsy66       |   -    | 0.93  | 0.46 | 0.00     | 0.07 |
-|             |        |       |      |          |      |
+| Participant | Team   | Score  |  AUC   | F1 Score |   ECE  |
+|-------------|--------|--------|--------|----------|--------|
+| agaldran    |    -   | 1.4697 | 0.6880 | 0.0000   | 0.0229 |
+| pzhang1     | DF41   | 1.0486 | 0.5719 | 0.0000   | 0.0465 |
+| wsy66       |   -    | 0.9317 | 0.4697 | 0.0000   | 0.0759 |
+|             |        |        |        |          |        |
 
 
 ## Submission
