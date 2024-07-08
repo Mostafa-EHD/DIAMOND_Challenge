@@ -58,12 +58,11 @@ We will call this bash script with your submission's name as an argument ($1). S
 
 ## Schedule
 
-- **Registration Period**: April 1 - June 20, 2024
+- **Registration Period**: April 1 - July 31, 2024
 - **Sample Data and Artificial Dataset Release**: April 1, 2024
-- **Code Submission Period**: April 1 - June 30, 2024
-- **Final Submission Period**: July 1 - July 5, 2024
-- **Finalists Announcement**: July 15, 2024
-- **Report Submission for Finalists**: July 15 - September 15, 2024
+- **Code Submission Period**: April 1 - July 31, 2024
+- **Finalists Announcement**: August 1, 2024
+- **Final Submission Period (Code + Report)**: August 1 -  September 15, 2024
 - **Results Announcement**: Challenge Day, October 10, 2024
 
 ## Getting Started
