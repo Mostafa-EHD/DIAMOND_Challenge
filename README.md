@@ -94,12 +94,15 @@ Participants are encouraged to thoroughly test their models locally using the pr
 
 Below is the current leaderboard showcasing the top-performing participants and their teams, based on various evaluation metrics:
 
-| Participant |  Team    | Score  |  AUC   | F1 Score |   ECE  |
-|-------------|----------|--------|--------|----------|--------|
-| agaldran    |    -     | 1.4697 | 0.6880 | 0.0000   | 0.0229 |
-| pzhang1     | DF41     | 1.0486 | 0.5719 | 0.0000   | 0.0465 |
-| yyydido     | AIFUTURE | 0.9521 | 0.6269 | 0.1458   | 0.4920 |
-| wsy66       |   -      | 0.9317 | 0.4697 | 0.0000   | 0.0759 |
+| Participant |  Team    | Score  |  AUC   | F1 Score |   ECE  | Name          |
+|-------------|----------|--------|--------|----------|--------|---------------|
+| agaldran    |    -     | 1.2184 | 0.7203 | 0.0454   | 0.0492 | Submission_3  |
+| agaldran    |    -     | 1.1765 | 0.6880 | 0.0000   | 0.0229 | Submission 1  |
+| agaldran    |    -     | 1.1096 | 0.6150 | 0.0000   | 0.0107 | Submission 2  |
+| qqqqqpy     |    -     | 1.0898 | 0.5732 | 0.0526   | 0.0194 | TL_den_optos1 |
+| pzhang1     | DF41     | 1.0486 | 0.5719 | 0.0000   | 0.0465 | Exp_1         |
+| yyydido     | AIFUTURE | 0.9521 | 0.6269 | 0.1458   | 0.4920 | submit0703    |
+| wsy66       |   -      | 0.9317 | 0.4697 | 0.0000   | 0.0759 | Ensemble3     |
 |             |          |        |        |          |        |
 
 
