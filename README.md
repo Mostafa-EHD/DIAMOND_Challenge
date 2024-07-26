@@ -98,6 +98,7 @@ Below is the current leaderboard showcasing the top-performing participants and 
 |-------------|----------|--------|--------|----------|--------|---------------|
 | agaldran    |    -     | 1.2184 | 0.7203 | 0.0454   | 0.0492 | Submission_3  |
 | agaldran    |    -     | 1.1765 | 0.6880 | 0.0000   | 0.0229 | Submission 1  |
+| yyydido     | AIFUTURE | 1.1152 | 0.6233 | 0.0000   | 0.0162 | submit0723    |
 | agaldran    |    -     | 1.1096 | 0.6150 | 0.0000   | 0.0107 | Submission 2  |
 | qqqqqpy     |    -     | 1.0898 | 0.5732 | 0.0526   | 0.0194 | TL_den_optos1 |
 | pzhang1     | DF41     | 1.0828 | 0.6211 | 0.0000   | 0.0767 | Exp_3         |
