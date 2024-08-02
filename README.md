@@ -97,19 +97,23 @@ Below is the current leaderboard showcasing the top-performing participants and 
 | Participant |  Team    | Score  |  AUC   | F1 Score |   ECE  | Name          |
 |-------------|----------|--------|--------|----------|--------|---------------|
 | agaldran    |    -     | 1.2184 | 0.7203 | 0.0454   | 0.0492 | Submission_3  |
+| yangbo      |    -     | 1.2049 | 0.7145 | 0.0000   | 0.0191 | submit0730    |
 | agaldran    |    -     | 1.1765 | 0.6880 | 0.0000   | 0.0229 | Submission 1  |
 | pzhang1     | DF41     | 1.1692 | 0.6773 | 0.0000   | 0.0162 | subm_vf20     |
 | yangbo      |    -     | 1.1304 | 0.6329 | 0.0000   | 0.0049 | DIA0729       |
 | yyydido     | AIFUTURE | 1.1152 | 0.6233 | 0.0000   | 0.0162 | submit0723    |
 | agaldran    |    -     | 1.1096 | 0.6150 | 0.0000   | 0.0107 | Submission 2  |
+| yyydido     | AIFUTURE | 1.0912 | 0.6087 | 0.0000   | 0.0349 | submit0731    |
 | qqqqqpy     |    -     | 1.0898 | 0.5732 | 0.0526   | 0.0194 | TL_den_optos1 |
 | pzhang1     | DF41     | 1.0828 | 0.6211 | 0.0000   | 0.0767 | Exp_3         |
+| cbdch       | cbdch    | 1.0715 | 0.5611 | 0.0909   | 0.0701 | Sub3_a0       |
 | pzhang1     | DF41     | 1.0486 | 0.5719 | 0.0000   | 0.0465 | Exp_1         |
 | cbdch       | cbdch    | 1.0385 | 0.5649 | 0.0000   | 0.0527 | Sub1_3        |
 | cbdch       | cbdch    | 0.9731 | 0.5050 | 0.0338   | 0.0975 | Sub2_5        |
 | limiarf     | LIMIARF  | 0.9640 | 0.5000 | 0.0000   | 0.0718 | Submission_1  |
 | yyydido     | AIFUTURE | 0.9521 | 0.6269 | 0.1458   | 0.4920 | submit0703    |
 | wsy66       |   -      | 0.9317 | 0.4697 | 0.0000   | 0.0759 | Ensemble3     |
+| limiarf     | LIMIARF  | 0.8858 | 0.5362 | 0.1436   | 0.4444 | Submission_1  |
 
 
 
