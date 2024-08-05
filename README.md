@@ -109,6 +109,7 @@ Below is the current leaderboard showcasing the top-performing participants and 
 | cbdch       | cbdch    | 1.0715 | 0.5611 | 0.0909   | 0.0701 | Sub3_a0       |
 | pzhang1     | DF41     | 1.0486 | 0.5719 | 0.0000   | 0.0465 | Exp_1         |
 | cbdch       | cbdch    | 1.0385 | 0.5649 | 0.0000   | 0.0527 | Sub1_3        |
+| amink       |    -     | 0.9860 | 0.5244 | 0.0000   | 0.0767 | diamond_0     |
 | cbdch       | cbdch    | 0.9731 | 0.5050 | 0.0338   | 0.0975 | Sub2_5        |
 | limiarf     | LIMIARF  | 0.9640 | 0.5000 | 0.0000   | 0.0718 | Submission_1  |
 | yyydido     | AIFUTURE | 0.9521 | 0.6269 | 0.1458   | 0.4920 | submit0703    |
