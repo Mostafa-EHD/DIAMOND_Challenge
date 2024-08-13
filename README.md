@@ -110,9 +110,11 @@ Below is the current leaderboard showcasing the top-performing participants and 
 | cbdch       | cbdch    | 1.0715 | 0.5611 | 0.0909   | 0.0701 | Sub3_a0       |
 | pzhang1     | DF41     | 1.0486 | 0.5719 | 0.0000   | 0.0465 | Exp_1         |
 | cbdch       | cbdch    | 1.0385 | 0.5649 | 0.0000   | 0.0527 | Sub1_3        |
+| qqqqqpy     |    -     | 1.0072 | 0.5297 | 0.0000   | 0.0451 | TL_den_0702   |
 | amink       |    -     | 0.9860 | 0.5244 | 0.0000   | 0.0767 | diamond_0     |
 | cbdch       | cbdch    | 0.9731 | 0.5050 | 0.0338   | 0.0975 | Sub2_5        |
 | limiarf     | LIMIARF  | 0.9640 | 0.5000 | 0.0000   | 0.0718 | Submission_1  |
+| qqqqqpy     |    -     | 0.9582 | 0.4778 | 0.0000   | 0.0391 | TL_den_0730   |
 | yyydido     | AIFUTURE | 0.9521 | 0.6269 | 0.1458   | 0.4920 | submit0703    |
 | wsy66       |   -      | 0.9317 | 0.4697 | 0.0000   | 0.0759 | Ensemble3     |
 | limiarf     | LIMIARF  | 0.8858 | 0.5362 | 0.1436   | 0.4444 | Submission_1  |
