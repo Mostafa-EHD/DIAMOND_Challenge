@@ -135,3 +135,9 @@ If your solution requires libraries not present in the provided Singularity imag
 For inquiries regarding the challenge rules, submission process, or for technical support, please contact [gwenole.quellec@inserm.fr](mailto:gwenole.quellec@inserm.fr) and [mostafa.elhabibdaho@univ-brest.fr](mailto:mostafa.elhabibdaho@univ-brest.fr).
 
 We wish all participants the best of luck and look forward to innovative solutions that advance our understanding and predictive capabilities in the realm of ci-DME development.
+
+## Sponsoring
+
+This challenge is sponsored by ZEISS.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Zeiss_logo.svg/240px-Zeiss_logo.svg.png" height="150" />
