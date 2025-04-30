@@ -141,3 +141,6 @@ We wish all participants the best of luck and look forward to innovative solutio
 This challenge is sponsored by ZEISS.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Zeiss_logo.svg/240px-Zeiss_logo.svg.png" height="150" />
+
+## Challenge proceeding
+[Image-Based Prediction of Retinal Disease Progression MICCAI Challenges, DIAMOND 2024 and MARIO 2024, Held in Conjunction with MICCAI 2024, Marrakesh, Morocco, October 10, 2024, Proceedings](https://link.springer.com/book/10.1007/978-3-031-86651-7)
